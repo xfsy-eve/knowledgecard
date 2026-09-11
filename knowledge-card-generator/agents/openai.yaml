@@ -1,0 +1,9 @@
+interface:
+  display_name: "知识点卡片生成器"
+  short_description: "用内置 ImageGen 生成中文手绘笔记风知识卡位图"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+  brand_color: "#23457C"
+  default_prompt: "Use $knowledge-card-generator to turn my topic into a 3:4 Chinese hand-drawn notebook-style PNG knowledge card generated directly by the built-in ImageGen tool."
+policy:
+  allow_implicit_invocation: true

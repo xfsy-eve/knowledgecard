@@ -1,0 +1,71 @@
+{
+  "version": 2,
+  "topic": "欧姆定律",
+  "audience": "初中生",
+  "ratio": "3:4",
+  "title": "欧姆定律：电路里谁在较劲？",
+  "subtitle": "初中物理 · 电学核心考点",
+  "modules": [
+    {
+      "heading": "三个物理量",
+      "kind": "definition",
+      "verbatim_lines": [
+        "电流 I：电荷定向移动的快慢",
+        "电压 U：推动电荷移动的动力",
+        "电阻 R：导体对电流的阻碍"
+      ],
+      "visual": "电池、电阻和灯泡组成的简洁电路小插画"
+    },
+    {
+      "heading": "核心公式",
+      "kind": "formula",
+      "verbatim_lines": [
+        "I = U / R",
+        "U = IR",
+        "R = U / I"
+      ],
+      "visual": "黄色公式框，三个物理量用箭头建立关系"
+    },
+    {
+      "heading": "规律怎么判断",
+      "kind": "diagram",
+      "verbatim_lines": [
+        "电阻一定：电压越大，电流越大",
+        "电压一定：电阻越大，电流越小"
+      ],
+      "visual": "两组清楚的增减箭头对比"
+    },
+    {
+      "heading": "生活案例",
+      "kind": "example",
+      "verbatim_lines": [
+        "6 V 电源接 3 Ω 电阻",
+        "I = 6 V / 3 Ω = 2 A"
+      ],
+      "visual": "6 V 电池连接 3 Ω 电阻和电流表"
+    },
+    {
+      "heading": "易错点",
+      "kind": "warning",
+      "verbatim_lines": [
+        "代入公式前先统一单位",
+        "电阻不会因为 U、I 改变",
+        "不能用导线直接连接电源两极"
+      ],
+      "visual": "砖红警示框和三个小警告图标"
+    }
+  ],
+  "footer": "先认对象，再找不变量，最后选公式",
+  "fact_locks": [
+    "I = U / R",
+    "U = IR",
+    "R = U / I",
+    "I = 6 V / 3 Ω = 2 A"
+  ],
+  "avoid": [
+    "错别字",
+    "伪文字",
+    "无关英文",
+    "平台水印"
+  ]
+}
